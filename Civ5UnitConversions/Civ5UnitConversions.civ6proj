@@ -1,0 +1,920 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Civ5UnitConversions</Name>
+    <Guid>bb4bb1e8-7b63-4ab0-9fe2-c6268586bfb4</Guid>
+    <ProjectGuid>2a707ead-954a-4872-b601-bdd8048c9fad</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Civ5UnitConversions</Teaser>
+    <Description>Civ5UnitConversions</Description>
+    <Authors>Del</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Civ5UnitConversions</AssemblyName>
+    <RootNamespace>Civ5UnitConversions</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Civ5UnitDB"><File>Data/UnitsData.sql</File></UpdateDatabase><UpdateArt id="Civ5UnitArt"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Antiaircraftgun.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Antitankgun.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Archeologist.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Archeologist_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Archeologist_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Archer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Archer_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Archer_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Artillery.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Atomicbomb.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Archer_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Archer_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Archer_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Euro_Alpha.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Euro_Bravo.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Euro_Charlie.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Galley.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Spearman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Spearman_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Spearman_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Swordsman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Swordsman_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Barbarian_Swordsman_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Battleship_Civ5.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Bazooka_Infantry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Bomber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Cannon.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Caravan_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Caravan_Early_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Caravan_Early_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Caravan_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Caravan_Late_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Caravan_Late_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Caravel.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Cargo_Ship_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Cargo_Ship_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Cargo_Ship_Middle.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Carrier.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Catapult.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Cavalry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Chariotarcher.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Civil_War_Engineer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Composite_Bowman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Artillery_Napoleon.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Artillery_Parrott.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Cavalry_Carbine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Cavalry_Pistol.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Ironclad.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Rifleman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Rifleman_V1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Confederate_Rifleman_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Crossbowman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Cw_Great_General_Confederate.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Cw_Great_General_Union.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Destroyer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ethiopian_Mehal_Sefari.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Eurodonkey.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Eurofemale18.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Eurofemale25.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Eurofemale35.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Eurofemale40.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Euromale20.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Euromale25.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Euromale35.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Euromale45.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Fighter.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Frigate_Civ5.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Gadrauhts_Swordsman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Galleass.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Galleon.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Galley.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Gatling_Gun.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatartist_Early_Bagpiper.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatartist_Early_Bigdrummer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatartist_Early_Drummer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatartist_Early_Flagbearer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatartist_Early_Flute.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatartist_Early_Tambourine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatartist_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatengineer_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatengineer_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatgeneral_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatgeneral_Early_Khan.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatgeneral_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatmerchant_Early_Camel_V1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatmerchant_Early_Camel_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatmerchant_Early_Leader.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatmerchant_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatscientist_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Greatscientist_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Admiral_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Admiral_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Artist_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Artist_Early_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Artist_Early_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Artist_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Artist_Late_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Artist_Late_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Explorer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Explorer_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Explorer_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Musician_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Musician_Early_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Musician_Early_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Musician_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Musician_Late_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Musician_Late_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Prophet.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Prophet_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Prophet_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Writer_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Writer_Early_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Writer_Early_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Writer_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Writer_Late_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Great_Writer_Late_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Guidedmissile.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hand_Axe_Barbarian.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Heavy_Infantry_Xcom.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Helicoptergunship.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Hititte_War_Chariot.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Horseman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Infantry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Inquisitor.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Inquisitor_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Inquisitor_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ironclad.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Jetfighter.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Knight.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lancer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Longswordsman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Marine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Mayan_Atlalist.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Mech.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Mechanizedinfantry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Missilecruiser.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Missionary.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Missionary_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Missionary_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Mobilesam.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Modernarmor.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Musketman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Nuclearmissile.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Nuclearsubmarine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Paratrooper.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Pikeman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Rifleman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Rocketartillery.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Scout.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_F3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_F4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_Llama.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_M1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_M2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_M3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settleramerican_M4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_Camel.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_Camel01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_F3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_F4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_M1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_M2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_M3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Afri_M4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_F1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_F2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_F3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_F4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_M1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_M2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_M3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_M4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Settlers_Asian_Ox.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Smokey_Landship_Level1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Smokey_Landship_Level2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Smokey_Landship_Level3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Spearman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Spearman_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Spearman_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ss_Booster.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ss_Capsule.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ss_Engine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ss_Stasis_Chamber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Stealthbomber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Steam_Airship_Level1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Steam_Airship_Level2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Steam_Fighter.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Submarine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Swordsman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Swordsman_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Swordsman_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Tank.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Transport.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Trebuchet.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Trireme.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Union_Artillery_Napoleon.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Union_Artillery_Parrott.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Union_Cavalry_Carbine.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Union_Cavalry_Pistol.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Union_Ironclad.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Union_Rifleman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_American_B17.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_American_Minuteman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Arabian_Camelarcher.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Assyrian_Siege_Tower.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Austrian_Hussar.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Aztec_Jaguar.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Babylonian_Bowman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Brazil_Pracinhas.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Byzantium_Cataphract.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Byzantium_Dromon.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Carthage_Africanforest_Elephant.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Carthage_Quinquereme.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Celt_Pictishwarrior.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Chinese_Chukonu.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Denmark_Berserker.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Denmark_Longboat.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Denmark_Ski_Infantry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Dutch_Sea_Beggar.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Egyptian_Warchariot.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_English_Longbowman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_English_Shipoftheline.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_French_Foreignlegion.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_French_Musketeer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_German_Landsknecht_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_German_Landsknecht_B.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_German_Panzer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Greek_Companioncavalry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Greek_Hoplite.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Huns_Battering_Ram.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Huns_Horsearcher.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Incan_Slinger.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Indian_Warelephant.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Indonesian_Kris_Swordsman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Iroquoian_Mohawkwarrior.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Japanese_Samurai.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Japanese_Zero.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Korean_Hwacha.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Korean_Turtle_Ship.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Mongolian_Keshik.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Morocco_Berber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Ottoman_Janissary.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Ottoman_Sipahi.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Persian_Immortal.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Polish_Winged_Hussar.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Polynesian_Maori_Warrior.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Polynesian_War_Canoe.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Portugal_Carrack.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Roman_Ballista.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Roman_Legion.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Russian_Cossack.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Russian_Cossack_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Russian_Cossack_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Saxon_Huscarl.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Shosone_Comanche_Rider.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Shosone_Pathfinder.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Siamese_Warelephant.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Songhai_Muslimcavalry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Spanish_Conquistador.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Spanish_Galleon.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Spanish_Terico_Arcabucero.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Spanish_Terico_Piquero.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Spanish_Treasure_Cart.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Sumerian_Phalanx.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Swedish_Carolean.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Swedish_Hakkapelitta.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Venetian_Galleass.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Zulu_Warrior_V1.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Zulu_Warrior_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Zulu_Warrior_V3.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Venice_Merchant_Of_Venice.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Warrior.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Warrior_V2.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Warrior_V4.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Workboat.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Workboat_Industrial.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Worker_Euro.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Worker_Euro_Modern.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ww1_Bomber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ww1_Fighter.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ww1_Infantry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ww1_Machinegun.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ww1_Tank.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ww2_Infantry.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Xp_Privateer.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\HelicopterGunship.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UnitsData.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\units_civ5.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Data\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

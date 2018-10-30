@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>867</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="units/units_civ5"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Antiaircraftgun"/>
+			<m_ObjectName text="Antiaircraftgun"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Antitankgun"/>
+			<m_ObjectName text="Antitankgun"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Archeologist"/>
+			<m_ObjectName text="Archeologist"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Archeologist_F1"/>
+			<m_ObjectName text="Archeologist_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Archeologist_F2"/>
+			<m_ObjectName text="Archeologist_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Archer"/>
+			<m_ObjectName text="Archer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Archer_V2"/>
+			<m_ObjectName text="Archer_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Archer_V3"/>
+			<m_ObjectName text="Archer_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Artillery"/>
+			<m_ObjectName text="Artillery"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Atomicbomb"/>
+			<m_ObjectName text="Atomicbomb"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Archer_01"/>
+			<m_ObjectName text="Barbarian_Archer_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Archer_V2"/>
+			<m_ObjectName text="Barbarian_Archer_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Archer_V3"/>
+			<m_ObjectName text="Barbarian_Archer_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Euro_Alpha"/>
+			<m_ObjectName text="Barbarian_Euro_Alpha"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Euro_Bravo"/>
+			<m_ObjectName text="Barbarian_Euro_Bravo"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Euro_Charlie"/>
+			<m_ObjectName text="Barbarian_Euro_Charlie"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Galley"/>
+			<m_ObjectName text="Barbarian_Galley"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Spearman"/>
+			<m_ObjectName text="Barbarian_Spearman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Spearman_V2"/>
+			<m_ObjectName text="Barbarian_Spearman_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Spearman_V3"/>
+			<m_ObjectName text="Barbarian_Spearman_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Swordsman"/>
+			<m_ObjectName text="Barbarian_Swordsman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Swordsman_V2"/>
+			<m_ObjectName text="Barbarian_Swordsman_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barbarian_Swordsman_V3"/>
+			<m_ObjectName text="Barbarian_Swordsman_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Battleship_Civ5"/>
+			<m_ObjectName text="Battleship_Civ5"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Bazooka_Infantry"/>
+			<m_ObjectName text="Bazooka_Infantry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Bomber"/>
+			<m_ObjectName text="Bomber"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cannon"/>
+			<m_ObjectName text="Cannon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravan_Early"/>
+			<m_ObjectName text="Caravan_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravan_Early_F1"/>
+			<m_ObjectName text="Caravan_Early_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravan_Early_F2"/>
+			<m_ObjectName text="Caravan_Early_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravan_Late"/>
+			<m_ObjectName text="Caravan_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravan_Late_F1"/>
+			<m_ObjectName text="Caravan_Late_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravan_Late_F2"/>
+			<m_ObjectName text="Caravan_Late_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Caravel"/>
+			<m_ObjectName text="Caravel"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cargo_Ship_Early"/>
+			<m_ObjectName text="Cargo_Ship_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cargo_Ship_Late"/>
+			<m_ObjectName text="Cargo_Ship_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cargo_Ship_Middle"/>
+			<m_ObjectName text="Cargo_Ship_Middle"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Carrier"/>
+			<m_ObjectName text="Carrier"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Catapult"/>
+			<m_ObjectName text="Catapult"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cavalry"/>
+			<m_ObjectName text="Cavalry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Chariotarcher"/>
+			<m_ObjectName text="Chariotarcher"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Civil_War_Engineer"/>
+			<m_ObjectName text="Civil_War_Engineer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Composite_Bowman"/>
+			<m_ObjectName text="Composite_Bowman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Artillery_Napoleon"/>
+			<m_ObjectName text="Confederate_Artillery_Napoleon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Artillery_Parrott"/>
+			<m_ObjectName text="Confederate_Artillery_Parrott"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Cavalry_Carbine"/>
+			<m_ObjectName text="Confederate_Cavalry_Carbine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Cavalry_Pistol"/>
+			<m_ObjectName text="Confederate_Cavalry_Pistol"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Ironclad"/>
+			<m_ObjectName text="Confederate_Ironclad"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Rifleman"/>
+			<m_ObjectName text="Confederate_Rifleman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Rifleman_V1"/>
+			<m_ObjectName text="Confederate_Rifleman_V1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Confederate_Rifleman_V2"/>
+			<m_ObjectName text="Confederate_Rifleman_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Crossbowman"/>
+			<m_ObjectName text="Crossbowman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cw_Great_General_Confederate"/>
+			<m_ObjectName text="Cw_Great_General_Confederate"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cw_Great_General_Union"/>
+			<m_ObjectName text="Cw_Great_General_Union"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Destroyer"/>
+			<m_ObjectName text="Destroyer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ethiopian_Mehal_Sefari"/>
+			<m_ObjectName text="Ethiopian_Mehal_Sefari"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Eurodonkey"/>
+			<m_ObjectName text="Eurodonkey"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Eurofemale18"/>
+			<m_ObjectName text="Eurofemale18"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Eurofemale25"/>
+			<m_ObjectName text="Eurofemale25"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Eurofemale35"/>
+			<m_ObjectName text="Eurofemale35"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Eurofemale40"/>
+			<m_ObjectName text="Eurofemale40"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Euromale20"/>
+			<m_ObjectName text="Euromale20"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Euromale25"/>
+			<m_ObjectName text="Euromale25"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Euromale35"/>
+			<m_ObjectName text="Euromale35"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Euromale45"/>
+			<m_ObjectName text="Euromale45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Fighter"/>
+			<m_ObjectName text="Fighter"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Frigate_Civ5"/>
+			<m_ObjectName text="Frigate_Civ5"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gadrauhts_Swordsman"/>
+			<m_ObjectName text="Gadrauhts_Swordsman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Galleass"/>
+			<m_ObjectName text="Galleass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Galleon"/>
+			<m_ObjectName text="Galleon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Galley"/>
+			<m_ObjectName text="Galley"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gatling_Gun"/>
+			<m_ObjectName text="Gatling_Gun"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatartist_Early_Bagpiper"/>
+			<m_ObjectName text="Greatartist_Early_Bagpiper"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatartist_Early_Bigdrummer"/>
+			<m_ObjectName text="Greatartist_Early_Bigdrummer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatartist_Early_Drummer"/>
+			<m_ObjectName text="Greatartist_Early_Drummer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatartist_Early_Flagbearer"/>
+			<m_ObjectName text="Greatartist_Early_Flagbearer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatartist_Early_Flute"/>
+			<m_ObjectName text="Greatartist_Early_Flute"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatartist_Early_Tambourine"/>
+			<m_ObjectName text="Greatartist_Early_Tambourine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatartist_Late"/>
+			<m_ObjectName text="Greatartist_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatengineer_Early"/>
+			<m_ObjectName text="Greatengineer_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatengineer_Late"/>
+			<m_ObjectName text="Greatengineer_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatgeneral_Early"/>
+			<m_ObjectName text="Greatgeneral_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatgeneral_Early_Khan"/>
+			<m_ObjectName text="Greatgeneral_Early_Khan"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatgeneral_Late"/>
+			<m_ObjectName text="Greatgeneral_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatmerchant_Early_Camel_V1"/>
+			<m_ObjectName text="Greatmerchant_Early_Camel_V1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatmerchant_Early_Camel_V2"/>
+			<m_ObjectName text="Greatmerchant_Early_Camel_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatmerchant_Early_Leader"/>
+			<m_ObjectName text="Greatmerchant_Early_Leader"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatmerchant_Late"/>
+			<m_ObjectName text="Greatmerchant_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatscientist_Early"/>
+			<m_ObjectName text="Greatscientist_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Greatscientist_Late"/>
+			<m_ObjectName text="Greatscientist_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Admiral_Early"/>
+			<m_ObjectName text="Great_Admiral_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Admiral_Late"/>
+			<m_ObjectName text="Great_Admiral_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Artist_Early"/>
+			<m_ObjectName text="Great_Artist_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Artist_Early_F1"/>
+			<m_ObjectName text="Great_Artist_Early_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Artist_Early_F2"/>
+			<m_ObjectName text="Great_Artist_Early_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Artist_Late"/>
+			<m_ObjectName text="Great_Artist_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Artist_Late_F1"/>
+			<m_ObjectName text="Great_Artist_Late_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Artist_Late_F2"/>
+			<m_ObjectName text="Great_Artist_Late_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Explorer"/>
+			<m_ObjectName text="Great_Explorer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Explorer_F1"/>
+			<m_ObjectName text="Great_Explorer_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Explorer_F2"/>
+			<m_ObjectName text="Great_Explorer_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Musician_Early"/>
+			<m_ObjectName text="Great_Musician_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Musician_Early_F1"/>
+			<m_ObjectName text="Great_Musician_Early_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Musician_Early_F2"/>
+			<m_ObjectName text="Great_Musician_Early_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Musician_Late"/>
+			<m_ObjectName text="Great_Musician_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Musician_Late_F1"/>
+			<m_ObjectName text="Great_Musician_Late_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Musician_Late_F2"/>
+			<m_ObjectName text="Great_Musician_Late_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Prophet"/>
+			<m_ObjectName text="Great_Prophet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Prophet_F1"/>
+			<m_ObjectName text="Great_Prophet_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Prophet_F2"/>
+			<m_ObjectName text="Great_Prophet_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Writer_Early"/>
+			<m_ObjectName text="Great_Writer_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Writer_Early_F1"/>
+			<m_ObjectName text="Great_Writer_Early_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Writer_Early_F2"/>
+			<m_ObjectName text="Great_Writer_Early_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Writer_Late"/>
+			<m_ObjectName text="Great_Writer_Late"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Writer_Late_F1"/>
+			<m_ObjectName text="Great_Writer_Late_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Great_Writer_Late_F2"/>
+			<m_ObjectName text="Great_Writer_Late_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Guidedmissile"/>
+			<m_ObjectName text="Guidedmissile"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Hand_Axe_Barbarian"/>
+			<m_ObjectName text="Hand_Axe_Barbarian"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Heavy_Infantry_Xcom"/>
+			<m_ObjectName text="Heavy_Infantry_Xcom"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Helicoptergunship"/>
+			<m_ObjectName text="Helicoptergunship"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Horseman"/>
+			<m_ObjectName text="Horseman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Infantry"/>
+			<m_ObjectName text="Infantry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Inquisitor"/>
+			<m_ObjectName text="Inquisitor"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Inquisitor_01"/>
+			<m_ObjectName text="Inquisitor_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Inquisitor_02"/>
+			<m_ObjectName text="Inquisitor_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ironclad"/>
+			<m_ObjectName text="Ironclad"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jetfighter"/>
+			<m_ObjectName text="Jetfighter"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Knight"/>
+			<m_ObjectName text="Knight"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lancer"/>
+			<m_ObjectName text="Lancer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Longswordsman"/>
+			<m_ObjectName text="Longswordsman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Marine"/>
+			<m_ObjectName text="Marine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mayan_Atlalist"/>
+			<m_ObjectName text="Mayan_Atlalist"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mech"/>
+			<m_ObjectName text="Mech"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mechanizedinfantry"/>
+			<m_ObjectName text="Mechanizedinfantry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Missilecruiser"/>
+			<m_ObjectName text="Missilecruiser"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Missionary"/>
+			<m_ObjectName text="Missionary"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Missionary_01"/>
+			<m_ObjectName text="Missionary_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Missionary_02"/>
+			<m_ObjectName text="Missionary_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mobilesam"/>
+			<m_ObjectName text="Mobilesam"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Modernarmor"/>
+			<m_ObjectName text="Modernarmor"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Musketman"/>
+			<m_ObjectName text="Musketman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Nuclearmissile"/>
+			<m_ObjectName text="Nuclearmissile"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Nuclearsubmarine"/>
+			<m_ObjectName text="Nuclearsubmarine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Paratrooper"/>
+			<m_ObjectName text="Paratrooper"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Pikeman"/>
+			<m_ObjectName text="Pikeman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Rifleman"/>
+			<m_ObjectName text="Rifleman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Rocketartillery"/>
+			<m_ObjectName text="Rocketartillery"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Scout"/>
+			<m_ObjectName text="Scout"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_F1"/>
+			<m_ObjectName text="Settleramerican_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_F2"/>
+			<m_ObjectName text="Settleramerican_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_F3"/>
+			<m_ObjectName text="Settleramerican_F3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_F4"/>
+			<m_ObjectName text="Settleramerican_F4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_Llama"/>
+			<m_ObjectName text="Settleramerican_Llama"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_M1"/>
+			<m_ObjectName text="Settleramerican_M1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_M2"/>
+			<m_ObjectName text="Settleramerican_M2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_M3"/>
+			<m_ObjectName text="Settleramerican_M3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settleramerican_M4"/>
+			<m_ObjectName text="Settleramerican_M4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_Camel"/>
+			<m_ObjectName text="Settlers_Afri_Camel"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_Camel01"/>
+			<m_ObjectName text="Settlers_Afri_Camel01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_F1"/>
+			<m_ObjectName text="Settlers_Afri_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_F2"/>
+			<m_ObjectName text="Settlers_Afri_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_F3"/>
+			<m_ObjectName text="Settlers_Afri_F3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_F4"/>
+			<m_ObjectName text="Settlers_Afri_F4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_M1"/>
+			<m_ObjectName text="Settlers_Afri_M1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_M2"/>
+			<m_ObjectName text="Settlers_Afri_M2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_M3"/>
+			<m_ObjectName text="Settlers_Afri_M3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Afri_M4"/>
+			<m_ObjectName text="Settlers_Afri_M4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_F1"/>
+			<m_ObjectName text="Settlers_Asian_F1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_F2"/>
+			<m_ObjectName text="Settlers_Asian_F2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_F3"/>
+			<m_ObjectName text="Settlers_Asian_F3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_F4"/>
+			<m_ObjectName text="Settlers_Asian_F4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_M1"/>
+			<m_ObjectName text="Settlers_Asian_M1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_M2"/>
+			<m_ObjectName text="Settlers_Asian_M2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_M3"/>
+			<m_ObjectName text="Settlers_Asian_M3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_M4"/>
+			<m_ObjectName text="Settlers_Asian_M4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Settlers_Asian_Ox"/>
+			<m_ObjectName text="Settlers_Asian_Ox"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smokey_Landship_Level1"/>
+			<m_ObjectName text="Smokey_Landship_Level1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smokey_Landship_Level2"/>
+			<m_ObjectName text="Smokey_Landship_Level2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smokey_Landship_Level3"/>
+			<m_ObjectName text="Smokey_Landship_Level3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spearman"/>
+			<m_ObjectName text="Spearman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spearman_V2"/>
+			<m_ObjectName text="Spearman_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spearman_V3"/>
+			<m_ObjectName text="Spearman_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ss_Booster"/>
+			<m_ObjectName text="Ss_Booster"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ss_Capsule"/>
+			<m_ObjectName text="Ss_Capsule"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ss_Engine"/>
+			<m_ObjectName text="Ss_Engine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ss_Stasis_Chamber"/>
+			<m_ObjectName text="Ss_Stasis_Chamber"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Stealthbomber"/>
+			<m_ObjectName text="Stealthbomber"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Steam_Airship_Level1"/>
+			<m_ObjectName text="Steam_Airship_Level1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Steam_Airship_Level2"/>
+			<m_ObjectName text="Steam_Airship_Level2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Steam_Fighter"/>
+			<m_ObjectName text="Steam_Fighter"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Submarine"/>
+			<m_ObjectName text="Submarine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Swordsman"/>
+			<m_ObjectName text="Swordsman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Swordsman_V2"/>
+			<m_ObjectName text="Swordsman_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Swordsman_V3"/>
+			<m_ObjectName text="Swordsman_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tank"/>
+			<m_ObjectName text="Tank"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Transport"/>
+			<m_ObjectName text="Transport"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trebuchet"/>
+			<m_ObjectName text="Trebuchet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trireme"/>
+			<m_ObjectName text="Trireme"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Union_Artillery_Napoleon"/>
+			<m_ObjectName text="Union_Artillery_Napoleon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Union_Artillery_Parrott"/>
+			<m_ObjectName text="Union_Artillery_Parrott"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Union_Cavalry_Carbine"/>
+			<m_ObjectName text="Union_Cavalry_Carbine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Union_Cavalry_Pistol"/>
+			<m_ObjectName text="Union_Cavalry_Pistol"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Union_Ironclad"/>
+			<m_ObjectName text="Union_Ironclad"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Union_Rifleman"/>
+			<m_ObjectName text="Union_Rifleman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_American_B17"/>
+			<m_ObjectName text="U_American_B17"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_American_Minuteman"/>
+			<m_ObjectName text="U_American_Minuteman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Arabian_Camelarcher"/>
+			<m_ObjectName text="U_Arabian_Camelarcher"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Assyrian_Siege_Tower"/>
+			<m_ObjectName text="U_Assyrian_Siege_Tower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Austrian_Hussar"/>
+			<m_ObjectName text="U_Austrian_Hussar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Aztec_Jaguar"/>
+			<m_ObjectName text="U_Aztec_Jaguar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Brazil_Pracinhas"/>
+			<m_ObjectName text="U_Brazil_Pracinhas"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Byzantium_Cataphract"/>
+			<m_ObjectName text="U_Byzantium_Cataphract"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Byzantium_Dromon"/>
+			<m_ObjectName text="U_Byzantium_Dromon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Carthage_Africanforest_Elephant"/>
+			<m_ObjectName text="U_Carthage_Africanforest_Elephant"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Carthage_Quinquereme"/>
+			<m_ObjectName text="U_Carthage_Quinquereme"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Celt_Pictishwarrior"/>
+			<m_ObjectName text="U_Celt_Pictishwarrior"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Chinese_Chukonu"/>
+			<m_ObjectName text="U_Chinese_Chukonu"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Denmark_Berserker"/>
+			<m_ObjectName text="U_Denmark_Berserker"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Dutch_Sea_Beggar"/>
+			<m_ObjectName text="U_Dutch_Sea_Beggar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Egyptian_Warchariot"/>
+			<m_ObjectName text="U_Egyptian_Warchariot"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_English_Longbowman"/>
+			<m_ObjectName text="U_English_Longbowman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_English_Shipoftheline"/>
+			<m_ObjectName text="U_English_Shipoftheline"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_French_Foreignlegion"/>
+			<m_ObjectName text="U_French_Foreignlegion"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_French_Musketeer"/>
+			<m_ObjectName text="U_French_Musketeer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_German_Landsknecht_A"/>
+			<m_ObjectName text="U_German_Landsknecht_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_German_Landsknecht_B"/>
+			<m_ObjectName text="U_German_Landsknecht_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_German_Panzer"/>
+			<m_ObjectName text="U_German_Panzer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Greek_Companioncavalry"/>
+			<m_ObjectName text="U_Greek_Companioncavalry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Greek_Hoplite"/>
+			<m_ObjectName text="U_Greek_Hoplite"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Huns_Battering_Ram"/>
+			<m_ObjectName text="U_Huns_Battering_Ram"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Huns_Horsearcher"/>
+			<m_ObjectName text="U_Huns_Horsearcher"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Indian_Warelephant"/>
+			<m_ObjectName text="U_Indian_Warelephant"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Indonesian_Kris_Swordsman"/>
+			<m_ObjectName text="U_Indonesian_Kris_Swordsman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Iroquoian_Mohawkwarrior"/>
+			<m_ObjectName text="U_Iroquoian_Mohawkwarrior"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Japanese_Samurai"/>
+			<m_ObjectName text="U_Japanese_Samurai"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Japanese_Zero"/>
+			<m_ObjectName text="U_Japanese_Zero"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Morocco_Berber"/>
+			<m_ObjectName text="U_Morocco_Berber"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Ottoman_Janissary"/>
+			<m_ObjectName text="U_Ottoman_Janissary"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Ottoman_Sipahi"/>
+			<m_ObjectName text="U_Ottoman_Sipahi"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Persian_Immortal"/>
+			<m_ObjectName text="U_Persian_Immortal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Polish_Winged_Hussar"/>
+			<m_ObjectName text="U_Polish_Winged_Hussar"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Portugal_Carrack"/>
+			<m_ObjectName text="U_Portugal_Carrack"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Roman_Ballista"/>
+			<m_ObjectName text="U_Roman_Ballista"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Roman_Legion"/>
+			<m_ObjectName text="U_Roman_Legion"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Russian_Cossack"/>
+			<m_ObjectName text="U_Russian_Cossack"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Russian_Cossack_V2"/>
+			<m_ObjectName text="U_Russian_Cossack_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Russian_Cossack_V3"/>
+			<m_ObjectName text="U_Russian_Cossack_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Saxon_Huscarl"/>
+			<m_ObjectName text="U_Saxon_Huscarl"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Shosone_Comanche_Rider"/>
+			<m_ObjectName text="U_Shosone_Comanche_Rider"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Shosone_Pathfinder"/>
+			<m_ObjectName text="U_Shosone_Pathfinder"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Siamese_Warelephant"/>
+			<m_ObjectName text="U_Siamese_Warelephant"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Songhai_Muslimcavalry"/>
+			<m_ObjectName text="U_Songhai_Muslimcavalry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Spanish_Conquistador"/>
+			<m_ObjectName text="U_Spanish_Conquistador"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Spanish_Galleon"/>
+			<m_ObjectName text="U_Spanish_Galleon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Spanish_Terico_Arcabucero"/>
+			<m_ObjectName text="U_Spanish_Terico_Arcabucero"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Spanish_Terico_Piquero"/>
+			<m_ObjectName text="U_Spanish_Terico_Piquero"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Spanish_Treasure_Cart"/>
+			<m_ObjectName text="U_Spanish_Treasure_Cart"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Swedish_Carolean"/>
+			<m_ObjectName text="U_Swedish_Carolean"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Swedish_Hakkapelitta"/>
+			<m_ObjectName text="U_Swedish_Hakkapelitta"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Venetian_Galleass"/>
+			<m_ObjectName text="U_Venetian_Galleass"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Zulu_Warrior_V1"/>
+			<m_ObjectName text="U_Zulu_Warrior_V1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Zulu_Warrior_V2"/>
+			<m_ObjectName text="U_Zulu_Warrior_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Zulu_Warrior_V3"/>
+			<m_ObjectName text="U_Zulu_Warrior_V3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Venice_Merchant_Of_Venice"/>
+			<m_ObjectName text="Venice_Merchant_Of_Venice"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Warrior"/>
+			<m_ObjectName text="Warrior"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Warrior_V2"/>
+			<m_ObjectName text="Warrior_V2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Warrior_V4"/>
+			<m_ObjectName text="Warrior_V4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Workboat"/>
+			<m_ObjectName text="Workboat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Workboat_Industrial"/>
+			<m_ObjectName text="Workboat_Industrial"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Worker_Euro"/>
+			<m_ObjectName text="Worker_Euro"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Worker_Euro_Modern"/>
+			<m_ObjectName text="Worker_Euro_Modern"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ww1_Bomber"/>
+			<m_ObjectName text="Ww1_Bomber"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ww1_Fighter"/>
+			<m_ObjectName text="Ww1_Fighter"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ww1_Infantry"/>
+			<m_ObjectName text="Ww1_Infantry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ww1_Machinegun"/>
+			<m_ObjectName text="Ww1_Machinegun"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ww1_Tank"/>
+			<m_ObjectName text="Ww1_Tank"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ww2_Infantry"/>
+			<m_ObjectName text="Ww2_Infantry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Xp_Privateer"/>
+			<m_ObjectName text="Xp_Privateer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Hititte_War_Chariot"/>
+			<m_ObjectName text="Hititte_War_Chariot"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Babylonian_Bowman"/>
+			<m_ObjectName text="U_Babylonian_Bowman"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Denmark_Longboat"/>
+			<m_ObjectName text="U_Denmark_Longboat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Denmark_Ski_Infantry"/>
+			<m_ObjectName text="U_Denmark_Ski_Infantry"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Incan_Slinger"/>
+			<m_ObjectName text="U_Incan_Slinger"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Korean_Hwacha"/>
+			<m_ObjectName text="U_Korean_Hwacha"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Korean_Turtle_Ship"/>
+			<m_ObjectName text="U_Korean_Turtle_Ship"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Mongolian_Keshik"/>
+			<m_ObjectName text="U_Mongolian_Keshik"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Polynesian_Maori_Warrior"/>
+			<m_ObjectName text="U_Polynesian_Maori_Warrior"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Polynesian_War_Canoe"/>
+			<m_ObjectName text="U_Polynesian_War_Canoe"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Sumerian_Phalanx"/>
+			<m_ObjectName text="U_Sumerian_Phalanx"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>
