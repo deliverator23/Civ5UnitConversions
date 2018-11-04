@@ -131,7 +131,7 @@
     <Content Include="Assets\Caravan_Late_F2.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Caravel.ast">
+    <Content Include="Assets\Caravel_Civ5.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Cargo_Ship_Early.ast">

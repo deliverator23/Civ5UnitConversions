@@ -142,8 +142,8 @@
 			<m_ObjectName text="Caravan_Late_F2"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Caravel"/>
-			<m_ObjectName text="Caravel"/>
+			<m_EntryID text="Caravel_Civ5"/>
+			<m_ObjectName text="Caravel_Civ5"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Cargo_Ship_Early"/>

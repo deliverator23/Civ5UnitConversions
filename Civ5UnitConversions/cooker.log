@@ -3,9 +3,9 @@ XLP cook starting...
 D:\Civ6Mod\gitproject\Civ5UnitConversions\Civ5UnitConversions\XLPs\units_civ5.xlp
 Opened output file: C:\Users\User\Documents\My Games\Sid Meier's Civilization VI\Mods\Civ5UnitConversions\Platforms\MacOS\BLPs/units/units_civ5.blp    For XLP: 'D:\Civ6Mod\gitproject\Civ5UnitConversions\Civ5UnitConversions\XLPs\units_civ5.xlp'
 Starting 'units/units_civ5'
-Load finished for: 'units/units_civ5' in 10.531 seconds
-Cook finished for: 'units/units_civ5' in 0.041 seconds
-Disk write finished for: 'units/units_civ5' in 5.959 seconds
-Cleanup finished for: 'units/units_civ5' in 0.226 seconds
+Load finished for: 'units/units_civ5' in 8.946 seconds
+Cook finished for: 'units/units_civ5' in 0.028 seconds
+Disk write finished for: 'units/units_civ5' in 4.911 seconds
+Cleanup finished for: 'units/units_civ5' in 0.224 seconds
 XLP cook completed with success.
-Cook completed in 18.494 seconds
+Cook completed in 15.814 seconds

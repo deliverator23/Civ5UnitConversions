@@ -1626,7 +1626,7 @@
 													<m_Fields>
 														<m_Values>
 															<Element class="AssetObjects:BLPEntryValue">
-																<m_EntryName text="Caravel"/>
+																<m_EntryName text="Caravel_Civ5"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="units_civ5.xlp"/>
 																<m_BLPPackage text="units/units_civ5"/>
