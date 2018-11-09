@@ -110,8 +110,8 @@
 			<m_ObjectName text="Bazooka_Infantry"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Bomber"/>
-			<m_ObjectName text="Bomber"/>
+			<m_EntryID text="Bomber_Civ5"/>
+			<m_ObjectName text="Bomber_Civ5"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Cannon"/>
@@ -514,8 +514,8 @@
 			<m_ObjectName text="Ironclad"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Jetfighter"/>
-			<m_ObjectName text="Jetfighter"/>
+			<m_EntryID text="Jetfighter_Civ5"/>
+			<m_ObjectName text="Jetfighter_Civ5"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Knight"/>
@@ -546,8 +546,8 @@
 			<m_ObjectName text="Mechanizedinfantry"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Missilecruiser"/>
-			<m_ObjectName text="Missilecruiser"/>
+			<m_EntryID text="Missilecruiser_Civ5"/>
+			<m_ObjectName text="Missilecruiser_Civ5"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Missionary"/>
@@ -594,12 +594,12 @@
 			<m_ObjectName text="Rifleman"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Rocketartillery"/>
-			<m_ObjectName text="Rocketartillery"/>
+			<m_EntryID text="Rocketartillery_Civ5"/>
+			<m_ObjectName text="Rocketartillery_Civ5"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Scout"/>
-			<m_ObjectName text="Scout"/>
+			<m_EntryID text="Scout_Civ5"/>
+			<m_ObjectName text="Scout_Civ5"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Settleramerican_F1"/>
@@ -770,8 +770,8 @@
 			<m_ObjectName text="Steam_Fighter"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Submarine"/>
-			<m_ObjectName text="Submarine"/>
+			<m_EntryID text="Submarine_Civ5"/>
+			<m_ObjectName text="Submarine_Civ5"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Swordsman"/>

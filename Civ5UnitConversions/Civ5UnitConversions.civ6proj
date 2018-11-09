@@ -107,7 +107,7 @@
     <Content Include="Assets\Bazooka_Infantry.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Bomber.ast">
+    <Content Include="Assets\Bomber_Civ5.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Cannon.ast">
@@ -413,7 +413,7 @@
     <Content Include="Assets\Ironclad.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Jetfighter.ast">
+    <Content Include="Assets\Jetfighter_Civ5.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Knight.ast">
@@ -437,7 +437,7 @@
     <Content Include="Assets\Mechanizedinfantry.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Missilecruiser.ast">
+    <Content Include="Assets\Missilecruiser_Civ5.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Missionary.ast">
@@ -473,10 +473,10 @@
     <Content Include="Assets\Rifleman.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Rocketartillery.ast">
+    <Content Include="Assets\Rocketartillery_Civ5.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Scout.ast">
+    <Content Include="Assets\Scout_Civ5.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Settleramerican_F1.ast">
@@ -605,7 +605,7 @@
     <Content Include="Assets\Steam_Fighter.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Submarine.ast">
+    <Content Include="Assets\Submarine_Civ5.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Swordsman.ast">

@@ -6,187 +6,187 @@
 <m_Bindings>
 <Element>
 <m_SlotName text="ATTACK_A"/> 
-<m_AnimationName text="rocketartillery_attacka"/> 
+<m_AnimationName text="missilecruiser_attacka"/> 
 </Element>
 <Element>
 <m_SlotName text="BACKWARD_A"/> 
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/> 
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/> 
 </Element>
 <Element>
 <m_SlotName text="BREATHING_A"/> 
-<m_AnimationName text="rocketartillery_idlea"/> 
+<m_AnimationName text="missilecruiser_idlea"/> 
 </Element>
 <Element>
 <m_SlotName text="BREATHING_COMBAT_A"/> 
-<m_AnimationName text="rocketartillery_combat_ready_idle"/> 
+<m_AnimationName text="missilecruiser_combat_ready_idle"/> 
 </Element>
 <Element>
 <m_SlotName text="DODGE_A"/> 
-<m_AnimationName text="rocketartillery_bombard_defense"/> 
+<m_AnimationName text="missilecruiser_bombard_defense"/> 
 </Element>
 <Element>
 <m_SlotName text="DEFEND_A"/> 
-<m_AnimationName text="rocketartillery_bombard_defense"/> 
+<m_AnimationName text="missilecruiser_bombard_defense"/> 
 </Element>
 <Element>
 <m_SlotName text="DEFEND_1"/> 
-<m_AnimationName text="rocketartillery_bombard_defense"/> 
+<m_AnimationName text="missilecruiser_bombard_defense"/> 
 </Element>
 <Element>
 <m_SlotName text="FORWARD_A"/> 
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/> 
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/> 
 </Element>
 <Element>
 <m_SlotName text="HERO_A"/> 
-<m_AnimationName text="rocketartillery_attackb"/> 
+<m_AnimationName text="missilecruiser_attackb"/> 
 </Element>
 <Element>
 <m_SlotName text="HERO_1"/> 
-<m_AnimationName text="rocketartillery_attackb"/> 
+<m_AnimationName text="missilecruiser_attackb"/> 
 </Element>
 <Element>
 <m_SlotName text="REACT_A"/> 
-<m_AnimationName text="rocketartillery_attackb"/> 
+<m_AnimationName text="missilecruiser_attackb"/> 
 </Element>
 <Element>
 <m_SlotName text="REACT_RANGED_A"/> 
-<m_AnimationName text="rocketartillery_attacka"/> 
+<m_AnimationName text="missilecruiser_attacka"/> 
 </Element>
 <Element>
 <m_SlotName text="REACT_RANGED_B"/> 
-<m_AnimationName text="rocketartillery_attackb"/> 
+<m_AnimationName text="missilecruiser_attackb"/> 
 </Element>
 <Element>
 <m_SlotName text="REACT_RANGED_C"/> 
-<m_AnimationName text="rocketartillery_attacka"/> 
+<m_AnimationName text="missilecruiser_attacka"/> 
 </Element>
 <Element>
 <m_SlotName text="REACT_RANGED_D"/> 
-<m_AnimationName text="rocketartillery_attackb"/> 
+<m_AnimationName text="missilecruiser_attackb"/> 
 </Element>
 <Element>
 <m_SlotName text="SPAWN"/> 
-<m_AnimationName text="rocketartillery_victory"/> 
+<m_AnimationName text="missilecruiser_victory"/> 
 </Element>
 <Element>
 <m_SlotName text="RUN_A"/> 
-<m_AnimationName text="rocketartillery_run"/> 
+<m_AnimationName text="missilecruiser_run"/> 
 </Element>
 <Element>
 <m_SlotName text="RUN_COMBAT"/> 
-<m_AnimationName text="rocketartillery_run"/> 
+<m_AnimationName text="missilecruiser_run"/> 
 </Element>
 <Element>
 <m_SlotName text="RUN_STOP"/> 
-<m_AnimationName text="rocketartillery_stop_run"/> 
+<m_AnimationName text="missilecruiser_stop_run"/> 
 </Element>
 <Element>
 <m_SlotName text="RUN_STOP_B"/> 
-<m_AnimationName text="rocketartillery_stop_run"/> 
+<m_AnimationName text="missilecruiser_stop_run"/> 
 </Element>
 <Element>
 <m_SlotName text="RUN_STOP_C"/> 
-<m_AnimationName text="rocketartillery_stop_run"/> 
+<m_AnimationName text="missilecruiser_stop_run"/> 
 </Element>
 <Element>
 <m_SlotName text="RUN_STOP_D"/> 
-<m_AnimationName text="rocketartillery_stop_run"/> 
+<m_AnimationName text="missilecruiser_stop_run"/> 
 </Element>
 <Element>
 <m_SlotName text="TURN_L"/> 
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/> 
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/> 
 </Element>
 <Element>
 <m_SlotName text="TURN_R"/> 
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/> 
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/> 
 </Element>
 <Element>
 <m_SlotName text="VICTORY"/> 
-<m_AnimationName text="rocketartillery_victory"/> 
+<m_AnimationName text="missilecruiser_victory"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_A"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_1"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_2"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_3"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_4"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_5"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_6"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_7"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_8"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_9"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_10"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_11"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_12"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_13"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_14"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_15"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_16"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_17"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_18"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_19"/> 
-<m_AnimationName text="rocketartillery_deathb"/> 
+<m_AnimationName text="missilecruiser_deathb"/> 
 </Element>
 <Element>
 <m_SlotName text="DEATH_20"/> 
-<m_AnimationName text="rocketartillery_deatha"/> 
+<m_AnimationName text="missilecruiser_deatha"/> 
 </Element>
 </m_Bindings>
 </m_animationBindings>
@@ -383,322 +383,322 @@
 <Element>
 <m_Name text="ATTACK_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attacka"/>
+<m_AnimationName text="missilecruiser_attacka"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="BACKWARD_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/>
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="BREATHING_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_idlea"/>
+<m_AnimationName text="missilecruiser_idlea"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="BREATHING_COMBAT_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_combat_ready_idle"/>
+<m_AnimationName text="missilecruiser_combat_ready_idle"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DODGE_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_bombard_defense"/>
+<m_AnimationName text="missilecruiser_bombard_defense"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEFEND_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_bombard_defense"/>
+<m_AnimationName text="missilecruiser_bombard_defense"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEFEND_1"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_bombard_defense"/>
+<m_AnimationName text="missilecruiser_bombard_defense"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="FORWARD_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/>
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="HERO_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attackb"/>
+<m_AnimationName text="missilecruiser_attackb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="HERO_1"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attackb"/>
+<m_AnimationName text="missilecruiser_attackb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="REACT_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attackb"/>
+<m_AnimationName text="missilecruiser_attackb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="REACT_RANGED_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attacka"/>
+<m_AnimationName text="missilecruiser_attacka"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="REACT_RANGED_B"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attackb"/>
+<m_AnimationName text="missilecruiser_attackb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="REACT_RANGED_C"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attacka"/>
+<m_AnimationName text="missilecruiser_attacka"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="REACT_RANGED_D"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_attackb"/>
+<m_AnimationName text="missilecruiser_attackb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="SPAWN"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_victory"/>
+<m_AnimationName text="missilecruiser_victory"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="RUN_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_run"/>
+<m_AnimationName text="missilecruiser_run"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="RUN_COMBAT"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_run"/>
+<m_AnimationName text="missilecruiser_run"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="RUN_STOP"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_stop_run"/>
+<m_AnimationName text="missilecruiser_stop_run"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="RUN_STOP_B"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_stop_run"/>
+<m_AnimationName text="missilecruiser_stop_run"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="RUN_STOP_C"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_stop_run"/>
+<m_AnimationName text="missilecruiser_stop_run"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="RUN_STOP_D"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_stop_run"/>
+<m_AnimationName text="missilecruiser_stop_run"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="TURN_L"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/>
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="TURN_R"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_idlea_trans_idleb"/>
+<m_AnimationName text="missilecruiser_idlea_trans_idleb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="VICTORY"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_victory"/>
+<m_AnimationName text="missilecruiser_victory"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_A"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_1"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_2"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_3"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_4"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_5"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_6"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_7"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_8"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_9"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_10"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_11"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_12"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_13"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_14"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_15"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_16"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_17"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_18"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_19"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deathb"/>
+<m_AnimationName text="missilecruiser_deathb"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
 <Element>
 <m_Name text="DEATH_20"/>
 <m_Description text=""/>
-<m_AnimationName text="rocketartillery_deatha"/>
+<m_AnimationName text="missilecruiser_deatha"/>
 <m_fDuration>0.000000</m_fDuration>
 <m_Triggers/>
 </Element>
@@ -716,21 +716,21 @@
 <m_GeometrySet>
 <m_ModelInstances>
 <Element>
-<m_Name text="point_WORLD"/>
-<m_GeoName text="rocketartillery"/>
+<m_Name text="World_Center"/>
+<m_GeoName text="missilecruiser"/>
 <m_GroupStates>
 <Element>
 <m_Values>
 <m_Values>
 <Element class="AssetObjects:ObjectValue">
-<m_ObjectName text="RocketArtillery_DIFF"/>
+<m_ObjectName text="MissileCruiser_DIFF"/>
 <m_eObjectType>MATERIAL</m_eObjectType>
 <m_ParamName text="Material"/>
 </Element>
 </m_Values>
 </m_Values>
-<m_GroupName text="RocketArtillery_DIFF.dds"/>
-<m_MeshName text="RocketArtillery"/>
+<m_GroupName text="MissileCruiser_DIFF.dds"/>
+<m_MeshName text="MissileCruiser"/>
 <m_StateName text="Default"/>
 </Element>
 </m_GroupStates>
@@ -752,8 +752,8 @@
 <m_Materials/>
 <m_ClassName text="Unit"/>
 <m_DataFiles/>
-<m_Name text="Rocketartillery"/>
-<m_Description text="Rocketartillery"/>
+<m_Name text="Missilecruiser_Civ5"/>
+<m_Description text="Missilecruiser"/>
 <m_Tags>
 <Element text="Unit"/>
 </m_Tags>
